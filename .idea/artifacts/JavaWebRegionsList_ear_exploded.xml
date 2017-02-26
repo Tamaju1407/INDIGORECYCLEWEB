@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="JavaWebRegionsList:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWebRegionsList_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="IndigoRecycle/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="JavaWebRegionsList:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="org.atteo:evo-inflector:1.2.2" />
+      </element>
+    </root>
+  </artifact>
+</component>
